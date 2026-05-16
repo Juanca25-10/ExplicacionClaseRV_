@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 3
   tags:
   - Pistola
+  - obj1
+  - obj2
+  - obj3
   layers:
   - Default
   - TransparentFX
