@@ -390,7 +390,7 @@
             "m_Id": "cc2869bf353d4a83a167548ffe153738"
         },
         {
-            "m_Id": "cd37d2fe2dca463f834a37aa8c93a350"
+            "m_Id": "e350531c6b664dc2bc1988211bf8eeb3"
         }
     ],
     "synonyms": [
@@ -730,10 +730,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -2083.999755859375,
-            "y": 153.60015869140626,
-            "width": 207.999755859375,
-            "height": 310.3999938964844
+            "x": -2100.800048828125,
+            "y": 156.8000030517578,
+            "width": 208.0,
+            "height": 310.4000244140625
         }
     },
     "m_Slots": [
@@ -1600,31 +1600,6 @@
 
 {
     "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.ColorRGBAMaterialSlot",
-    "m_ObjectId": "cd37d2fe2dca463f834a37aa8c93a350",
-    "m_Id": 2,
-    "m_DisplayName": "Output",
-    "m_SlotType": 1,
-    "m_Hidden": false,
-    "m_ShaderOutputName": "Output",
-    "m_StageCapability": 2,
-    "m_Value": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0,
-        "w": 0.0
-    },
-    "m_DefaultValue": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0,
-        "w": 1.0
-    },
-    "m_Labels": []
-}
-
-{
-    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "d1ff0dc8f37b419a8c4cddb957a9a80b",
     "m_Id": 0,
@@ -1779,6 +1754,31 @@
         "w": 0.0
     },
     "m_LiteralMode": false
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.ColorRGBAMaterialSlot",
+    "m_ObjectId": "e350531c6b664dc2bc1988211bf8eeb3",
+    "m_Id": 2,
+    "m_DisplayName": "Output",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Output",
+    "m_StageCapability": 2,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+    },
+    "m_Labels": []
 }
 
 {
