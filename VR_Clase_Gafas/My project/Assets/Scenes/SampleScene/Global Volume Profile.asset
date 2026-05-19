@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06437c1ff663d574d9447842ba0a72e4, type: 3}
   m_Name: ScreenSpaceLensFlare
   m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.ScreenSpaceLensFlare
-  active: 1
+  active: 0
   intensity:
     m_OverrideState: 1
     m_Value: 1.53
@@ -160,7 +160,7 @@ MonoBehaviour:
   active: 1
   mode:
     m_OverrideState: 1
-    m_Value: 2
+    m_Value: 1
   neutralHDRRangeReductionMode:
     m_OverrideState: 0
     m_Value: 2
@@ -202,54 +202,7 @@ MonoBehaviour:
   - {fileID: -1844813765941013108}
   - {fileID: -1177116254068340459}
   - {fileID: 6872449285900904208}
-  - {fileID: 6510056339134158572}
   - {fileID: -8487720383181284295}
---- !u!114 &6510056339134158572
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6bd486065ce11414fa40e631affc4900, type: 3}
-  m_Name: ProbeVolumesOptions
-  m_EditorClassIdentifier: Unity.RenderPipelines.Core.Runtime::UnityEngine.Rendering.ProbeVolumesOptions
-  active: 1
-  normalBias:
-    m_OverrideState: 1
-    m_Value: 2
-  viewBias:
-    m_OverrideState: 1
-    m_Value: 2
-  scaleBiasWithMinProbeDistance:
-    m_OverrideState: 1
-    m_Value: 1
-  samplingNoise:
-    m_OverrideState: 1
-    m_Value: 1
-  animateSamplingNoise:
-    m_OverrideState: 1
-    m_Value: 1
-  leakReductionMode:
-    m_OverrideState: 1
-    m_Value: 2
-  minValidDotProductValue:
-    m_OverrideState: 1
-    m_Value: 0.1
-  occlusionOnlyReflectionNormalization:
-    m_OverrideState: 1
-    m_Value: 1
-  intensityMultiplier:
-    m_OverrideState: 0
-    m_Value: 1
-  skyOcclusionIntensityMultiplier:
-    m_OverrideState: 0
-    m_Value: 1
-  worldOffset:
-    m_OverrideState: 0
-    m_Value: {x: 0, y: 0, z: 0}
 --- !u!114 &6872449285900904208
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -265,7 +218,7 @@ MonoBehaviour:
   active: 1
   shadows:
     m_OverrideState: 1
-    m_Value: {x: 0.75315666, y: 0.9807222, z: 1, w: 0.81991214}
+    m_Value: {x: 0.75315666, y: 0.9807222, z: 1, w: -0.7784057}
   midtones:
     m_OverrideState: 1
     m_Value: {x: 0.94127774, y: 0.984394, z: 1, w: 0.05856516}
