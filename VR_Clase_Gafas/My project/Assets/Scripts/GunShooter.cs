@@ -26,6 +26,10 @@ public class GunShooter : MonoBehaviour
     [Tooltip("Cuántos segundos vive la bala antes de destruirse")]
     public float bulletLifetime = 5f;
 
+    [Header("Efecto Visual")]
+    [Tooltip("Prefab del efecto BANG (opcional)")]
+    public GameObject bangEffectPrefab;
+
     // Privados
     private XRGrabInteractable grabInteractable;
     private float lastFireTime = -999f;
@@ -112,5 +116,15 @@ public class GunShooter : MonoBehaviour
 
         // Destruir la bala después del tiempo de vida (seguro de respaldo)
         Destroy(bullet, bulletLifetime);
+
+        // Efecto BANG - aparece adelante del muzzle, siempre a velocidad real
+        if (bangEffectPrefab != null)
+        {
+            Vector3 bangPos = muzzlePoint.position
+                            + muzzlePoint.forward * 0.3f
+                            + muzzlePoint.up * 0.05f
+                            + muzzlePoint.right * 0.15f; // offset derecha — ajustá al gusto
+            Instantiate(bangEffectPrefab, bangPos, Quaternion.identity);
+        }
     }
 }
